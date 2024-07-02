@@ -124,7 +124,7 @@ async def unknown_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main():
-    application = Application.builder().token("7287475698:AAE35DEPK2bzgvfq09qLZluUiqzgfUWhOE8").build()
+    application = Application.builder().token("My-API-token").build()
 
     # Command handlers
     application.add_handler(CommandHandler("start", start))
